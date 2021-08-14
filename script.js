@@ -36,7 +36,7 @@ WARNING!!! WARNING!!!
 // var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
 
 (function() {
-  var name = ["Yaakov", "John", "jen", "Lulu", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
+  var name = ["Yaakov", "John", "jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
   for (var i = 0; i < name.length; i++) {
       var firstLetter = name[i].charAt(0).toLowerCase();
       if (firstLetter === 'J' || firstLetter === 'j') {

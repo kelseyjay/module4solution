@@ -37,8 +37,7 @@
       var speakWord = "Goodbye";
       byeSpeaker.speak = function speak(name) {
           console.log(speakWord + " " + name);
-      }; 
-      
+      };    
   })(window);
   
 

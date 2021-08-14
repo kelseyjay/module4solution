@@ -23,11 +23,11 @@
 
 (function(window) {
   var helloSpeaker = new Object();
+  window.helloSpeaker = helloSpeaker;
   var speakWord = "Hello";
-  helloSpeaker.speak = function(name) {
+  helloSpeaker.speak = function speak(name) {
       console.log (speakWord + " " + name);
   };
-  window.helloSpeaker = helloSpeaker;
 })(window);
   
   // STEP 4: Rewrite the 'speak' function such that it is attached to the
